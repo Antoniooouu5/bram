@@ -164,8 +164,8 @@ footer p{
         width: 250px !important;
         height: 110px;
     }
-    nav{
-        font-size: 25px;
+    header nav{
+        font-size: 25px !important;
     }
     nav a{
         margin-right: 3px;
@@ -196,8 +196,8 @@ footer p{
         height: 1500px;
     }
     .contato{
-     height: 900px;   
-     ]
+     height: 900px !important;   
+    }
 }
 .contato img{
     width: 98%;
