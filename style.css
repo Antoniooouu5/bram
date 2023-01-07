@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Barlow:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif !important;
+}
+.voltar{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+body{
+    background-color: #A11111;
+}
+header{
+    width: 100%;
+    height: 110px;
+    background-color: black;
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+}
+.flex{
+    display: flex;
+    position: relative;
+}
+.flex img{
+    height: 110px;
+}
+nav{
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    font-size: 33px;
+    font-family: 'Roboto', sans-serif;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+nav a:hover{
+    transition: 0.1s;
+    border-bottom: 3px white solid;
+    opacity: 0.6;
+}
+.inicio{
+    display: block;
+    width: 90%;
+    max-width: 900px;
+    height: 500px;
+    background-color: black;
+    margin-top: 180px;
+    margin-left: 5%;
+    color: white;
+    font-size: 35px;
+    padding: 4px 4px;   
+    border-radius: 13px;
+    box-shadow: 4px 4px 30px black;
+    letter-spacing: 2px;
+}
+.inicio P{
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.inicio h2{
+    text-align: center;
+    font-size: 60px;
+}
+.socios{
+    display: block;
+    margin: 100px auto;
+    width: 98%;
+    max-width: 920px;
+    height: 890px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 40px 0;
+    box-shadow: 4px 4px 30px black;
+    border-radius: 13px;
+}
+.flex-socios{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    
+}
+.flex-socios img{
+    width: 48%;
+}
+.advogado{
+    width: 50%;
+    margin-top: 45px;   
+}
+.advogado img{
+    width: 90%;
+    min-width: 200px;
+    height: 300px;
+}
+.flex-socios-dois div{
+    margin-top: 75px;
+}
+.socios h2{
+    text-align: center;
+    font-size: 65px;
+}
+.socios div{
+    font-size: 30px;
+}
+header .flex img{
+    width: 300px !important;
+    height: 110px;
+}
+.contato{
+    width: 98%;
+    max-width: 730px;
+    height: 820px;
+    background-color: black;
+    display: block;
+    margin: 50px auto;
+    color: white;
+    box-shadow: 4px 4px 30px black;
+    border-radius: 13px;    
+}
+.contato h2{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif !important; 
+}
+.contatos{
+    display: flex;
+    font-size: 20px;
+    padding: 10px 12px;
+    font-family: 'Barlow', sans-serif !important;
+}
+.line{
+    width: 100%;
+    height: 7px;
+    background-color: black;
+    margin-top: 130px;
+}
+footer{
+    height: 50px;
+    width: 100%;
+    color:white;
+    text-align: center;
+    font-size: 18px;
+}
+footer p{
+    margin-top: 30px;
+}
+#letra{
+    color: #be1919;
+}
+@media screen and (max-width: 600px){
+    header .flex img{
+        width: 250px !important;
+        height: 110px;
+    }
+    nav{
+        font-size: 25px;
+    }
+    nav a{
+        margin-right: 3px;
+    }
+    .flex img{
+        width: 170px;
+    }
+    .inicio{
+        margin-left:0px !important;
+        height: 450px;
+        font-size: 23px;
+    }
+    .advogado img{
+        height: 260px !important;
+    }
+}
+@media screen and (max-width: 670px){
+    .flex-socios{
+        flex-wrap: wrap;
+    }
+    .advogado{
+        width: 100%;
+    }
+    .advogado img{
+        width: 80%;
+    }
+    .socios{
+        height: 1550px;
+    }
+    .contato{
+        height: 860px;
+    }
+}
+.contato img{
+    width: 98%;
+    height: 550px;
+    margin: 10px auto;
+    display: block;
+}
