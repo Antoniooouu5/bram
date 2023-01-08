@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Barlow:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -152,6 +156,9 @@ footer{
 footer p{
     margin-top: 30px;
 }
+span{
+    color: #be1919;  
+}
 #letra{
     color: #be1919;
 }
@@ -160,7 +167,13 @@ footer p{
     height: 550px;
     margin: 10px auto;
     display: block;
-}   
+} 
+.flex img.logo_bram{
+    display: none;
+    height: 90px;
+    width: 80px;
+    position: relative;
+}  
 @media screen and (max-width: 685px){
     header nav a{
         font-size: 30px;
@@ -187,16 +200,22 @@ footer p{
         height: 860px;
     }
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 610px){
     header nav a{
-        font-size: 21px;
-        margin-right: 2px;
+       
+        margin-right: 3px;
     }
     .advogado img{
         height: 260px !important;
     }
     header .flex img{
-        width: 200px;
-        height: 90px;
+        width: 220px;
+        height: 100px;
+        display: none;
+    }
+    .flex img.logo_bram{
+        display: block;
+        width: 140px;
+        height: 100px;
     }
 }
