@@ -115,7 +115,7 @@ nav a:hover{
     font-size: 30px;
 }
 header .flex img{
-    width: 300px !important;
+    width: 300px;
     height: 110px;
 }
 .contato{
@@ -196,7 +196,7 @@ footer p{
         height: 260px !important;
     }
     header .flex img{
-        width: 220px !important;
+        width: 220px;
         height: 100px;
     }
 }
