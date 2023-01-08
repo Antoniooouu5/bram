@@ -50,7 +50,7 @@ nav a:hover{
 }
 .inicio{
     display: block;
-    width: 94%;
+    width: 98%; 
     max-width: 900px;
     height: 600px;
     background-color: black;
@@ -78,7 +78,7 @@ nav a:hover{
     margin: 100px auto;
     width: 98%;
     max-width: 920px;
-    height: 890px;
+    height: 920px;
     background-color: black;
     color: white;
     cursor: pointer;
@@ -119,7 +119,7 @@ header .flex img{
     height: 110px;
 }
 .contato{
-    width: 98%;
+    width: 98% !important;
     max-width: 730px;
     height: 820px;
     background-color: black;
@@ -130,15 +130,13 @@ header .flex img{
     border-radius: 13px;    
 }
 .contato h2{
-    font-size: 60px;
+    font-size: 70px;
     text-align: center;
     font-family: 'Roboto', sans-serif !important; 
 }
-.contatos{
-    display: flex;
-    font-size: 20px;
-    padding: 10px 12px;
-    font-family: 'Barlow', sans-serif !important;
+.contatos h3{
+    font-size: 27px;
+    text-align: center;
 }
 .line{
     width: 100%;
@@ -180,8 +178,9 @@ span{
         margin-right: 3px;
     }
     .inicio{
+        display: block;
         margin: 180px auto;
-        height: 550px;
+        height: 630px;
         font-size: 25px;
     }
     .flex-socios{
@@ -199,10 +198,14 @@ span{
     .contato{
         height: 860px;
     }
+    .contatos h3{
+        font-size: 16px;
+    }
 }
 @media screen and (max-width: 610px){
     header nav a{    
         margin-right: 2px;
+        font-size: 23px;
     }
     .advogado img{
         height: 260px !important;
