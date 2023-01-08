@@ -166,13 +166,6 @@ footer p{
     display: block;
 }   
 @media screen and (max-width: 685px){
-    nav{
-        font-size: 26px;
-    }
-    header .flex img{
-        width: 220px !important;
-        height: 100px;
-    }
     .inicio{
         margin: 180px auto;
         height: 500px;
@@ -195,10 +188,8 @@ footer p{
     }
 }
 @media screen and (max-width: 600px){
-    nav{
+    header nav a{
         font-size: 26px !important;
-    }
-    nav a{
         margin-right: 3px;
     }
     .advogado img{
