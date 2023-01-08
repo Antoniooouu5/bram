@@ -189,14 +189,14 @@ footer p{
 }
 @media screen and (max-width: 600px){
     header nav a{
-        font-size: 26px;
-        margin-right: 3px;
+        font-size: 21px;
+        margin-right: 2px;
     }
     .advogado img{
         height: 260px !important;
     }
     header .flex img{
-        width: 220px;
-        height: 100px;
+        width: 200px;
+        height: 90px;
     }
 }
