@@ -52,7 +52,7 @@ nav a:hover{
     display: block;
     width: 94%;
     max-width: 900px;
-    height: 580px;
+    height: 600px;
     background-color: black;
     margin-top: 180px;
     margin-left: 5%;
@@ -181,7 +181,7 @@ span{
     }
     .inicio{
         margin: 180px auto;
-        height: 500px;
+        height: 550px;
         font-size: 25px;
     }
     .flex-socios{
