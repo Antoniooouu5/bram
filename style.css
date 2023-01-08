@@ -52,7 +52,7 @@ nav a:hover{
     display: block;
     width: 90%;
     max-width: 900px;
-    height: 500px;
+    height: 580px;
     background-color: black;
     margin-top: 180px;
     margin-left: 5%;
@@ -159,22 +159,20 @@ footer p{
 #letra{
     color: #be1919;
 }
-@media screen and (max-width: 600px){
+.contato img{
+    width: 98%;
+    height: 550px;
+    margin: 10px auto;
+    display: block;
+}   
+@media screen and (max-width: 685px){
+    nav{
+        font-size: 30px;
+    }
     header .flex img{
-        width: 175px !important;
+        width: 230px !important;
         height: 100px;
     }
-    nav{
-        font-size: 22px;
-    }
-    nav a{
-        margin-right: 3px;
-    }
-    .advogado img{
-        height: 260px !important;
-    }
-}
-@media screen and (max-width: 670px){
     .inicio{
         margin-left:0px !important;
         height: 500px;
@@ -196,9 +194,14 @@ footer p{
         height: 860px;
     }
 }
-.contato img{
-    width: 98%;
-    height: 550px;
-    margin: 10px auto;
-    display: block;
+@media screen and (max-width: 600px){
+    nav{
+        font-size: 26px;
+    }
+    nav a{
+        margin-right: 3px;
+    }
+    .advogado img{
+        height: 260px !important;
+    }
 }
