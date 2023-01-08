@@ -176,7 +176,7 @@ span{
 }  
 @media screen and (max-width: 685px){
     header nav a{
-        font-size: 30px;
+        font-size: 27px;
         margin-right: 3px;
     }
     .inicio{
@@ -215,7 +215,7 @@ span{
     }
     .flex img.logo_bram{
         display: block;
-        width: 140px;
-        height: 100px;
+        width: 130px;
+        height: 90px;
     }
 }
