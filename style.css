@@ -13,7 +13,7 @@
     opacity: 0;
 }
 body{
-    background-color: #A11111;
+    background-color: #A11111;  
 }
 header{
     width: 100%;
@@ -50,7 +50,7 @@ nav a:hover{
 }
 .inicio{
     display: block;
-    width: 90%;
+    width: 94%;
     max-width: 900px;
     height: 580px;
     background-color: black;
@@ -167,14 +167,14 @@ footer p{
 }   
 @media screen and (max-width: 685px){
     nav{
-        font-size: 30px;
+        font-size: 26px;
     }
     header .flex img{
-        width: 230px !important;
+        width: 220px !important;
         height: 100px;
     }
     .inicio{
-        margin-left:0px !important;
+        margin: 180px auto;
         height: 500px;
         font-size: 25px;
     }
@@ -196,12 +196,16 @@ footer p{
 }
 @media screen and (max-width: 600px){
     nav{
-        font-size: 26px;
+        font-size: 26px !important;
     }
     nav a{
         margin-right: 3px;
     }
     .advogado img{
         height: 260px !important;
+    }
+    header .flex img{
+        width: 220px !important;
+        height: 100px;
     }
 }
