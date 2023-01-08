@@ -201,9 +201,8 @@ span{
     }
 }
 @media screen and (max-width: 610px){
-    header nav a{
-       
-        margin-right: 3px;
+    header nav a{    
+        margin-right: 2px;
     }
     .advogado img{
         height: 260px !important;
